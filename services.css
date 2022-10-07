@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+}
+header{
+    background: #74C69D;
+    min-height: 100px;
+    width: 100%;
+    padding: 2rem 8rem;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h1{
+    color: #FFFFFF;
+    font-family: 'Work Sans';
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 50%;
+    justify-content: flex-end;
+}
+nav ul li{
+    width: 20%;   
+}
+nav ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Work Sans';
+}
+.hamburger{
+    display: none !important;
+    color: #fff;
+}
+.sectionOne{
+    width: 100%;
+    text-align: center;
+    margin-top: 2.5em;
+}
+.sectionOne span{
+    color: #74C69D;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.sectionOne h1{
+    font-family: 'Crimson Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #000;
+    margin-top: .2em;
+}
+.sectionOne p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    color: #000000;
+    width: 25%;
+    margin-inline: auto;
+    margin-top: .3em;
+}
+main{
+    width: 100%;
+    padding: 2rem 8rem;
+}
+.planSection{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+.plans{
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 46px 30px;
+    gap: 10px;
+    max-width: 339px;
+    max-height: 542px;
+    background: #FFFFFF;
+    box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    text-align: center;
+}
+.plans span{
+    color: #000;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-inline: auto;
+}
+.plans div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-inline: auto;
+}
+.plans div h1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #000;
+    margin-top: .2em;
+}
+.plans ul{
+    margin-top: 2em;
+}
+.plans p{
+    font-family: 'Work Sans';
+    font-size: 1rem;
+}
+.plans ul li{
+    margin-top: .7em;
+    list-style: none;
+    font-family: 'Work Sans';
+    font-size: .9rem;
+}
+button{
+    border-radius: 5px;
+    padding: 10px 30px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    text-align: center;
+    margin-inline: auto;
+}
+button:hover{
+    background-color: #74C69D;
+    color: #fff;
+    transition: 1s;
+}
+footer{
+    background-color: #74C69D;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 8rem;
+    margin-top: 5em;
+}
+.fa-brands{
+    margin-left: 1em;
+}
+footer p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+}
+@media only screen and (max-width: 400px){
+    header{
+        padding: 1.2rem;
+    }nav ul{
+        display: none;
+    }.hamburger{
+        display: block !important;
+    }.planSection{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 2em;
+    }.plans{
+        display: flex;
+        flex-direction: column;
+    }.sectionOne{
+        width: 100%;
+    }.sectionOne p{
+        width: 100%;
+    }main{
+        padding: 1rem;
+    }footer{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        width: 100%;
+    }footer p{
+        text-align: center;
+        width: 100%;
+        margin-top: .6em;
+    }.plans p{
+        font-family: 'Work Sans';
+        font-size: .8rem;
+    }
+    .plans ul li{
+        margin-top: .7em;
+        list-style: none;
+        font-family: 'Work Sans';
+        font-size: .7rem;
+    }.plans{
+        display: flex; 
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 46px 30px;
+        gap: 10px;
+        max-width: 369px;
+        max-height: 542px;
+        background: #FFFFFF;
+        box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        text-align: center;
+        margin-top: 2em;
+    }
+}
